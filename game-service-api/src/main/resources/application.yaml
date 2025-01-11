@@ -34,7 +34,7 @@ spring:
                       producer:
                         compressionType: gzip
                         configuration:
-                          max.request.size: 1000000000000
+                          max.request.size: 100000000
                     binder:
                       autoAddPartitions: true
                       autoCreateTopics: true
